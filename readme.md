@@ -1,3 +1,5 @@
+# learning-docker
+
 * O `Dockerfile` é um arquivo de texto contendo os comandos para construir uma imagem Docker.
 
 ~~~Dockerfile
@@ -35,6 +37,6 @@ A linha `./www:/var/www/html` significa que ligará a pasta “./www” no host 
 * Agora execute `docker-compose up`
 e a imagem será construída e executada. E, então, utilize o navegador para acessar o IP do servidor, e vamos ver a página phpinfo. Ao finalizar a construção da imagem será exibido o IP da mesma para acesso.
 
-### Referencias
+### Referências
 
 [criando-um-ambiente-de-desenvolvimento-php-com-docker-compose](https://medium.com/@FernandoDebrand/criando-um-ambiente-de-desenvolvimento-php-com-docker-compose-a7cad3373df0)
